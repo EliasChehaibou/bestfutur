@@ -1,0 +1,14 @@
+{
+    "posts":[
+        {
+            "nom": "Questionnaire 8im",
+            "type": "oui/non",
+            "results": ["Corporelle", "Interpersonelle", "..."],
+            "questions": [
+                {"text": "J’aime la nature", "awardedPoint": "Naturaliste"},
+                {"text": "Je peux résoudre des problèmes de mathématiques dans ma tête", "awardedPoint": "Logique"},
+                {"text": "question suivante", "awardedPoint": "réponse suivante"}
+              ]
+          }
+        ]
+  }

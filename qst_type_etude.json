@@ -1,0 +1,24 @@
+{
+    "posts":[
+        {
+    "nom": "Questionnaire Type d'études",
+    "type": "choixMultpile",
+    "results": ["CPGE", "Université", "Écoles post-bac", "Filières courtes"],
+    "questions": [
+        {"text": "Combien d'années d'études visez-vous ?", "answers": [
+            {"answerText": "2", "awardedPoint": "Filières courtes"},
+            {"answerText": "5", "awardedPoint": "Écoles post-bac"}
+          ]},
+        {"text": "Parmis les différentes propositions, quelle matière préférez-vous ?", "answers": [
+            {"answerText": "Mathématiques", "awardedPoint": "CPGE"},
+            {"answerText": "Français", "awardedPoint": "Université"}
+          ]},
+	{"text": "question suivante", "answers": [
+	    {"answerText": "reponse1", "awardedPoint": "categorie1"},
+	    {"answerText": "reponse2", "awardedPoint": "categorie2"},
+	    {"answerText": "reponse3", "awardedPoint": "categorie3"},
+	    {"answerText": "reponse4", "awardedPoint": "categorie4"}
+      ]
+        }]
+    }]
+  }
