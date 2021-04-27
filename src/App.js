@@ -3,7 +3,6 @@ import PostForm from "./components/PostForm";
 
 const App = () => {
   
-
   return (
     <div>
       <PostForm />
