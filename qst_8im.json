@@ -5,9 +5,9 @@
             "type": "oui/non",
             "results": ["Corporelle", "Interpersonelle", "..."],
             "questions": [
-                {"text": "J’aime la nature", "awardedPoint": "Naturaliste"},
-                {"text": "Je peux résoudre des problèmes de mathématiques dans ma tête", "awardedPoint": "Logique"},
-                {"text": "question suivante", "awardedPoint": "réponse suivante"}
+                {"text": "J’aime la nature", "awardedPoint": "Corporelle"},
+                {"text": "Je peux résoudre des problèmes de mathématiques dans ma tête", "awardedPoint": "Interpersonelle"},
+                {"text": "question suivante", "awardedPoint": "Corporelle"}
               ]
           }
         ]

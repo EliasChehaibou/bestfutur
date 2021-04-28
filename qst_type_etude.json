@@ -7,7 +7,7 @@
     "questions": [
         {"text": "Combien d'années d'études visez-vous ?", "answers": [
             {"answerText": "2", "awardedPoint": "Filières courtes"},
-            {"answerText": "5", "awardedPoint": "Écoles post-bac"}
+            {"answerText": "5", "awardedPoint": "Université"}
           ]},
         {"text": "Parmis les différentes propositions, quelle matière préférez-vous ?", "answers": [
             {"answerText": "Mathématiques", "awardedPoint": "CPGE"},
