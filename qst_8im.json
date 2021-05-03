@@ -1,13 +1,14 @@
 {
     "posts":[
         {
-            "nom": "Questionnaire 8im",
+            "nom": "Questionnaire 8 Intelligences Multiples",
             "type": "oui/non",
-            "results": ["Corporelle", "Interpersonelle", "..."],
+            "results": ["Corporelle", "Interpersonelle", "Logique", "Naturaliste"],
             "questions": [
                 {"text": "J’aime la nature", "awardedPoint": "Corporelle"},
                 {"text": "Je peux résoudre des problèmes de mathématiques dans ma tête", "awardedPoint": "Interpersonelle"},
-                {"text": "question suivante", "awardedPoint": "Corporelle"}
+                {"text": "question suivante", "awardedPoint": "Naturaliste"},
+                {"text": "question suivante", "awardedPoint": "Logique"}
               ]
           }
         ]

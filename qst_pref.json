@@ -1,0 +1,34 @@
+{
+    "posts":[
+        {
+            "nom": "Questionnaire PREF",
+            "type": "oui/non",
+            "results": ["Justice", "Audiovisuel", "Numerique", "Communication", "Social", "Spectacle", "Creation", "Sciences Sociales", "Business", "Gestion", "Environnement", "Artisanat", "Aventure & Nature", "Littérature & Langues", "Culture", "Ingenierie", "Santé", "Hotellerie & Restauration", "Construction & Architecture"],
+            "questions": [
+                {"text": "J'aimerais gouverner un pays ou un état", "awardedPoint": "Justice"},
+				{"text": "J'aimerais apprendre les lois et en créer de nouvelles", "awardedPoint": "Justice"},
+                {"text": "Je m'intéresse beaucoup aux vidéos et au cinéma", "awardedPoint": "Audiovisuel"},
+				{"text": "Je rêve de coordonner l'activité d'un tournage", "awardedPoint": "Audiovisuel"},
+                {"text": "Je rêve de devenir développeur web", "awardedPoint": "Numerique"},
+				{"text": "J’ai envie de faire du graphisme sur ordinateur", "awardedPoint": "Numerique"},
+				{"text": "Je m’imagine évoluer dans le monde de l’édition", "awardedPoint": "Communication"},
+				{"text": "J'aimerais  être le porte-parole d’une entreprise", "awardedPoint": "Communication"},
+				{"text": "Je rêve d'apprendre des méthodes naturelles pour la santé", "awardedPoint": "Social"},
+				{"text": "Je veux savoir créer des costumes", "awardedPoint": "Spectacle"},
+				{"text": "Je suis intéressé.e pour imaginer de nouveaux modes de transports", "awardedPoint": "Creation"},
+				{"text": "J’aime étudier les populations et la société", "awardedPoint": "Sciences Sociales"},
+				{"text": "J’ai envie de convaincre pour vendre des produits", "awardedPoint": "Business"},
+				{"text": "Je veux manager des équipes", "awardedPoint": "Gestion"},
+				{"text": "Je veux sauver les océans", "awardedPoint": "Environnement"},
+				{"text": "J’ai envie de créer et de construire avec mes mains", "awardedPoint": "Artisanat"},
+				{"text": "Je m'intéresse beaucoup à la faune et la flore", "awardedPoint": "Aventure & Nature"},
+				{"text": " Je suis intéressé.e pour comprendre l’origine de nos pensées", "awardedPoint": "Littérature & Langues"},
+				{"text": "J'aimerais gérer un lieu culturel", "awardedPoint": "Culture"},
+				{"text": "Je suis intéressé par l'électronique et la mécanique", "awardedPoint": "Ingenierie"},
+				{"text": "Je veux sauver la vie des gens en les guérissant", "awardedPoint": "Santé"},
+				{"text": "Je m'imagine travailler dans un restaurant", "awardedPoint": "Hotellerie & Restauration"},
+				{"text": "J'aimerais me creuser la tête pour trouver des architectures innovantes", "awardedPoint": "Construction & Architecture"}
+              ]
+          }
+        ]
+  }
