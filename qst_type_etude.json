@@ -2,7 +2,9 @@
     "posts":[
         {
     "nom": "Questionnaire Type d'études",
+    "texte": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ipsum nisl, eu dictum nisi scelerisque quis. Ut et justo ac mi vulputate pharetra eget sit amet orci. Fusce sit amet mi at enim venenatis porta. Vivamus quis interdum ligula, vestibulum efficitur urna. Aenean facilisis risus at neque interdum consectetur. Phasellus eu blandit augue, non mollis mi. Morbi odio metus, rhoncus quis semper ut, tincidunt at dolor. Aliquam vitae rhoncus velit.",
     "type": "choixMultpile",
+    "image": "/static/architecte.jpg",
     "results": ["CPGE", "Université", "Écoles post-bac", "Filières courtes"],
     "questions": [
         {"text": "Combien d'années d'études visez-vous ?", "answers": [
@@ -17,6 +19,48 @@
             {"answerText": "Anglais", "awardedPoint": "Écoles post-bac"},
             {"answerText": "SVT", "awardedPoint": "Filières courtes"}
           ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
+        {"text": "question suivante", "answers": [
+            {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
+            {"answerText": "reponse2", "awardedPoint": "Université"},
+            {"answerText": "reponse3", "awardedPoint": "Écoles post-bac"},
+            {"answerText": "reponse4", "awardedPoint": "CPGE"}
+            ]},
         {"text": "question suivante", "answers": [
             {"answerText": "reponse1", "awardedPoint": "Filières courtes"},
             {"answerText": "reponse2", "awardedPoint": "Université"},

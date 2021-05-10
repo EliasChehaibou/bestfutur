@@ -3,7 +3,9 @@
         {
             "nom": "Questionnaire PREF",
             "type": "oui/non",
+			"texte": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ipsum nisl, eu dictum nisi scelerisque quis. Ut et justo ac mi vulputate pharetra eget sit amet orci. Fusce sit amet mi at enim venenatis porta. Vivamus quis interdum ligula, vestibulum efficitur urna. Aenean facilisis risus at neque interdum consectetur. Phasellus eu blandit augue, non mollis mi. Morbi odio metus, rhoncus quis semper ut, tincidunt at dolor. Aliquam vitae rhoncus velit.",
             "results": ["Justice", "Audiovisuel", "Numerique", "Communication", "Social", "Spectacle", "Creation", "Sciences Sociales", "Business", "Gestion", "Environnement", "Artisanat", "Aventure & Nature", "Littérature & Langues", "Culture", "Ingenierie", "Santé", "Hotellerie & Restauration", "Construction & Architecture"],
+			"image": "/static/architecte.jpg",
             "questions": [
                 {"text": "J'aimerais gouverner un pays ou un état", "awardedPoint": "Justice"},
 				{"text": "J'aimerais apprendre les lois et en créer de nouvelles", "awardedPoint": "Justice"},

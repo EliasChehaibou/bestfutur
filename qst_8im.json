@@ -2,7 +2,9 @@
     "posts":[
         {
             "nom": "Questionnaire 8 Intelligences Multiples",
+            "texte": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ipsum nisl, eu dictum nisi scelerisque quis. Ut et justo ac mi vulputate pharetra eget sit amet orci. Fusce sit amet mi at enim venenatis porta. Vivamus quis interdum ligula, vestibulum efficitur urna. Aenean facilisis risus at neque interdum consectetur. Phasellus eu blandit augue, non mollis mi. Morbi odio metus, rhoncus quis semper ut, tincidunt at dolor. Aliquam vitae rhoncus velit.",
             "type": "oui/non",
+            "image": "/static/architecte.jpg",
             "results": ["Corporelle", "Interpersonelle", "Logique", "Naturaliste"],
             "questions": [
                 {"text": "J’aime la nature", "awardedPoint": "Corporelle"},
