@@ -6,7 +6,9 @@
   padding: 0;
   color:#667882
 }
-
+body {
+  background: #ddd;
+}
 .header {
   background: white;
   width:100%;
@@ -37,16 +39,51 @@
   width:200px
 }
   
+.tt {
+  display: flex;
+  flex-direction: row;
+  width: 600px
+}
 .titre {
   font-size:50px;
-  margin-top:15px;
   padding-top:22px;
   padding-bottom:10px;
+  color: #222
+}
+
+.consignes {
+  width: 100%;
+  align-content: center;
 }
 
 .texte {
   margin-top: 15px;
-  width: 60%
+  width: 60%; 
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify
+}
+
+.headerEmo {
+  display: flex
+}
+
+.emoji {
+  text-align: center;
+  background: #ffffff6b;
+  border: 3px solid #33333314;
+  height: 200px;
+  padding: 30px;
+  padding-bottom: 0px;
+  border-radius: 30px;
+  width: 30%;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+.emoji img {
+  height: 90px
 }
 
 .questions{
@@ -65,7 +102,7 @@
 }
 
 #lbl1 {
-  margin-left:125px;
+  margin-left:1000px;
   text-align:left;
 }
 
@@ -139,10 +176,9 @@ body {
 }
 
 .bloc {
-  padding-left: 25px;
-  padding-right: 20px;
+  margin-top:15px;
   padding-bottom: 20px;
-  background:white;
+  background: white;
   min-width:350px;
   text-align: center;
   border-radius: 4px;
@@ -151,9 +187,7 @@ body {
 
 .progress {
   display: flex;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-right: 850px;
+  width:38%
 }
 
 #barre {
@@ -168,3 +202,21 @@ body {
 #err {
   color:red
 }
+
+.container {
+  padding-bottom: 20px;
+  background:white;
+  min-width:350px;
+  text-align: center;
+  border-radius: 4px;
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  left: 39.5px;
+}
+
+#res {
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+

@@ -1,11 +1,12 @@
 {
     "posts":[
         {
-            "nom": "Questionnaire PREF",
+            "nom": "Le PREF'",
             "type": "oui/non",
-			"texte": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ipsum nisl, eu dictum nisi scelerisque quis. Ut et justo ac mi vulputate pharetra eget sit amet orci. Fusce sit amet mi at enim venenatis porta. Vivamus quis interdum ligula, vestibulum efficitur urna. Aenean facilisis risus at neque interdum consectetur. Phasellus eu blandit augue, non mollis mi. Morbi odio metus, rhoncus quis semper ut, tincidunt at dolor. Aliquam vitae rhoncus velit.",
-            "results": ["Justice", "Audiovisuel", "Numerique", "Communication", "Social", "Spectacle", "Creation", "Sciences Sociales", "Business", "Gestion", "Environnement", "Artisanat", "Aventure & Nature", "Littérature & Langues", "Culture", "Ingenierie", "Santé", "Hotellerie & Restauration", "Construction & Architecture"],
-			"image": "/static/architecte.jpg",
+			"texte": "Le Pref’© est un questionnaire des préférences construit spécialement pour les jeunes qui s’interrogent sur leur orientation scolaire et professionnelle. Les résultats du Pref’© aide à clarifier les intérêts majeurs et à définir des objectifs. Chaque domaine que tu choisis s’avère être stimulant, motivant et enrichissant pour toi. Ainsi, tu pourras te poser les bonnes questions avec ton coach.",
+            "results": ["Littérature & Langues", "Audiovisuel", "Numerique", "Communication", "Social", "Spectacle", "Creation", "Sciences Sociales", "Business", "Gestion", "Environnement", "Artisanat", "Aventure & Nature", "Justice", "Culture", "Ingenierie", "Santé", "Hotellerie & Restauration", "Construction & Architecture"],
+			"image": "/static/qstpref.jpg",
+			"consignestxt":"Il est nécessaire de répondre à TOUTES les questions en cochant OUI ou NON. Les résultats de ce questionnaire te seront communiqués par ton coach lors de votre première session de travail.",
             "questions": [
                 {"text": "J'aimerais gouverner un pays ou un état", "awardedPoint": "Justice"},
 				{"text": "J'aimerais apprendre les lois et en créer de nouvelles", "awardedPoint": "Justice"},

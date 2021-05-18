@@ -1,7 +1,10 @@
 import {React, useState, useEffect} from "react";
 import BestFuturHeader from "./header";
+import visualisation from './visualisation'
+
 
 const Form = () => {
+
 
   const [forms, setForms] = useState(null);
 
@@ -77,8 +80,8 @@ const Form = () => {
 
       calcul()
 
-      if (document.getElementById("img") && document.getElementById("txt") ) {
-        document.getElementById("img").remove()
+      if (document.getElementById("headerEmo") && document.getElementById("txt") ) {
+        document.getElementById("headerEmo").remove()
         document.getElementById("txt").remove()
       }
 
@@ -111,7 +114,7 @@ const Form = () => {
             }
           }
         }
-        document.getElementById('prog').innerHTML += ('<div id="rep" class="progress"><p>Votre progression: </p><progress id="barre" max="100" value='+(((cpt-1)*1000)/forms[0].questions.length).toString()+'></progress><p>'+Math.round((((cpt-1)*1000)/forms[0].questions.length)).toString()+'%</p></div>')
+        document.getElementById('prog').innerHTML += ('<div id="rep" class="progress"><p>Ta progression: </p><progress id="barre" max="100" value='+(((cpt-1)*1000)/forms[0].questions.length).toString()+'></progress><p>'+Math.round((((cpt-1)*1000)/forms[0].questions.length)).toString()+'%</p></div>')
         document.getElementById('form').innerHTML += ('<input class="btn" id="in" type="submit" value="Page suivante"/>')
         cpt +=1
       }
@@ -132,7 +135,7 @@ const Form = () => {
             }
           }
         }
-        document.getElementById('prog').innerHTML += ('<div id="rep" class="progress" ><p>Votre progression: </p><progress id="barre" max="100" value='+(((cpt-1)*1000)/forms[0].questions.length).toString()+'></progress><p>'+Math.round((((cpt-1)*1000)/forms[0].questions.length)).toString()+'%</p></div>')
+        document.getElementById('prog').innerHTML += ('<div id="rep" class="progress" ><p>Ta progression: </p><progress id="barre" max="100" value='+(((cpt-1)*1000)/forms[0].questions.length).toString()+'></progress><p>'+Math.round((((cpt-1)*1000)/forms[0].questions.length)).toString()+'%</p></div>')
         document.getElementById('fin').innerHTML += ('<input class="btn" id="btn-fin" type="submit" value="Terminer le questionnaire"/>')
         cpt+=1
 
@@ -168,14 +171,25 @@ const Form = () => {
       if (document.getElementById("mult")) {
         document.getElementById("mult").remove()
       }
+      document.getElementById('res').innerHTML += ("<p>Tes résultats :</p>")
+      visualisation(tab_cate)
 
-      for (var b in tab_cate){
-        document.getElementById('qst').innerHTML += ('<div>'+b + "=" + tab_cate[b] + '<br/></div>')
-      }
     }
     else{
       document.getElementById('nocheck').innerHTML += ("<p id='err'>Il faut d'abord répondre à toutes les questions!</p>")
     }
+  }
+
+  const handleDep = async (e) => {
+    e.preventDefault();
+
+    document.getElementById('btn').remove()
+    document.getElementById('img').remove()
+    document.getElementById('txt').remove()
+
+    document.getElementById('tete').innerHTML += ("<div class='headerEmo' id='headerEmo'/><div class='emoji'><img src='static/emojichrono.png'/><br/><span>Ca dure moins de 15 minutes</span></div><div class='emoji'><img src='static/emoji100.png'/><br/><span>Répondez à toutes les questions</span></div></div>")
+    document.getElementById('tete').innerHTML += ("<p class='texte' id='txt'>Il est nécessaire de répondre à TOUTES les questions en cochant OUI ou NON. Les résultat de ce questionnaire te seront communiqués par ton coach lors de votre première session de travail.</p>")
+    document.getElementById('form').innerHTML += ("<input class='btn-d' id='in' type='submit' value='START'/>")
   }
 
   return (
@@ -183,18 +197,27 @@ const Form = () => {
       {forms && <div className="for-container">
         <BestFuturHeader/>
         <div class="bloc">
-          <h1 class="titre">{forms[0].nom}</h1>
-          <img class="image" src={forms[0].image} id="img"/>
-          <p class="texte" id="txt">{forms[0].texte}</p>
+          <div id="tete">
+            <img class="image" src={forms[0].image} id="img"/>
+            <div class="tt">
+              <h1 class="titre">{forms[0].nom} ©️</h1>
+              <img class="logo" src="static/logo.jpg" id="lg"/>
+            </div>
+            <p class="texte" id="txt">{forms[0].texte}</p>
+          </div>
           <form onSubmit={(e) => handleForm(e)}>
             <div id="prog"></div>
             <div id="qst"></div>
             <div id="fin"></div>
           </form>
-          <form id= 'form' onSubmit ={(e) => handleBtn(e)}>
-              <input class="btn-d" id="in" type="submit" value="Démarrer le questionnaire"/>
+          <form id= 'form' onSubmit ={(e) => handleBtn(e)}>            
+          </form>
+          <form  onSubmit ={(e) => handleDep(e)}>
+            <input class="btn-d" id="btn" type="submit" value="                     "/>
           </form>
           <div id="nocheck"></div>
+          <div id="res"></div>
+          <div id="visu"></div>     
         </div>
       </div>}
     </>
