@@ -61,18 +61,20 @@ const visualisation = (tab) => {
         var pos = categorie.search(" ")
         var ch1 = categorie.substr(0,(pos))
         var ch2 = categorie.substr(pos)
-        text = [ ch1, ch2, `Ton score: ${Math.round(datum._y1*10)}%` ];
+        text = [ ch1, ch2, `Ton score:`,`${Math.round(datum._y1*10)}%` ];
         style = [
           { ...baseStyle, fontSize: 8, fontWeight: "bold",  fontFamily: "Comfortaa" },
           { ...baseStyle, fontSize: 8, fontWeight: "bold",  fontFamily: "Comfortaa" },
-          { ...baseStyle, fontSize: 7,  fontFamily: "Comfortaa" }
+          { ...baseStyle, fontSize: 7,  fontFamily: "Comfortaa" },
+          { ...baseStyle, fontSize: 7, fontWeight: "bold",  fontFamily: "Comfortaa" }
         ];
       }
       else {
-        text = [ `${directions[datum._x]}`, `Ton score: ${Math.round(datum._y1*10)}%` ];
+        text = [ `${directions[datum._x]}`, `Ton score:`,`${Math.round(datum._y1*10)}%` ];
         style = [
           { ...baseStyle, fontSize: 8, fontWeight: "bold",  fontFamily: "Comfortaa" },
-          { ...baseStyle, fontSize: 7,  fontFamily: "Comfortaa" }
+          { ...baseStyle, fontSize: 7,  fontFamily: "Comfortaa" },
+          { ...baseStyle, fontSize: 7, fontWeight: "bold",  fontFamily: "Comfortaa" },
         ];
       }    
   

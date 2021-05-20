@@ -2,10 +2,11 @@
     "posts":[
         {
             "nom": "Questionnaire 8 Intelligences Multiples",
-            "texte": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod ipsum nisl, eu dictum nisi scelerisque quis. Ut et justo ac mi vulputate pharetra eget sit amet orci. Fusce sit amet mi at enim venenatis porta. Vivamus quis interdum ligula, vestibulum efficitur urna. Aenean facilisis risus at neque interdum consectetur. Phasellus eu blandit augue, non mollis mi. Morbi odio metus, rhoncus quis semper ut, tincidunt at dolor. Aliquam vitae rhoncus velit.",
+            "texte": "Tous intelligents, tous différents ! Basé sur la théorie des intelligences multiples d’Howard Gardner qui suggère que nous disposons de 8 types d’intelligence, ce questionnaire a pour objectif de t’aider à mieux identifier tes styles d’intelligence.  Pouvoir définir tes zones de confort et d’inconfort te permet de mieux te connaitre et ainsi de te poser les bonnes questions quant à ton avenir.",
             "type": "oui/non",
-            "image": "/static/architecte.jpg",
-            "results": ["Corporelle", "Interpersonelle", "Logique", "Naturaliste"],
+            "image": "/static/qst8im.jpg",
+            "consignestxt":"Il est nécessaire de répondre à TOUTES les questions en cochant OUI ou NON. Les résultats de ce questionnaire te seront communiqués par ton coach lors de votre première session de travail.",
+            "results": ["Naturaliste", "Logique", "Interpersonelle","Corporelle" ],
             "questions": [
                 {"text": "J’aime la nature", "awardedPoint": "Corporelle"},
                 {"text": "Je peux résoudre des problèmes de mathématiques dans ma tête", "awardedPoint": "Interpersonelle"},
